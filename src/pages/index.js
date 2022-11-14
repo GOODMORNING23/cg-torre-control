@@ -1,0 +1,6 @@
+export * from './Home'
+export * from './Login'
+export * from './Registrar'
+export * from './AtencionClientes'
+export * from './Comentarios'
+export * from './RepositorioCG'
