@@ -26,6 +26,13 @@ import { PenetracionHoraComer } from "./pages/PenetracionHora/PenetracionHoraCom
 import { VerificaHome } from "./pages/VerificacionFraude/VerificaHome";
 import { VerificacionFraude } from "./pages/VerificacionFraude/VerificacionFraude";
 import { Push } from "./pages/Push/Push";
+import { PageHomeATC } from "./pages/ResumenOperativo/Atencionclientes/PageHomeATC";
+import { PageHomeCobr } from "./pages/ResumenOperativo/Cobranza/PageHomeCobr";
+import { PageHomeComer } from "./pages/ResumenOperativo/Comercial/PageHomeComer";
+import { PageHomeOtorg } from "./pages/ResumenOperativo/OtorgamientoCredito/PageHomeOtorg";
+import { PageHomeRed } from "./pages/ResumenOperativo/ApoyoRed/PageHomeRed";
+import { PageHomeAFI } from "./pages/ResumenOperativo/ApoyoAFI/PageHomeAFI";
+import { PageHomeOtro } from "./pages/ResumenOperativo/PageHome/PageHomeOtro";
 
 function App() {
   return (
@@ -38,6 +45,7 @@ function App() {
 
             <Route path="/home" element={<RutaProtegida />}>
               <Route index element={<Home />} />
+              {/** Resumen Diario */}
               <Route path="AtencionClientes" element={<AtencionClientes />} />
               <Route path="AtencionClientes/atencionClientesFISA" element={<AtencionClientesFISA />} />
               <Route path="Cobranza" element={<Cobranza />} />
@@ -50,16 +58,32 @@ function App() {
               <Route path="OtorgamientoCredito/otogamientocreditopage" element={<OtorgamientoCreditoPage />} />
               <Route path="ApoyoAfi" element={<ApoyoAFI />} />
               <Route path="ApoyoAfi/apoyoafipage" element={<ApoyoAFIPage />} />
+
+              {/** Directorio Reportes  */}
+
               <Route path="repositoriocg" element={<RepositorioCG />} />
+              {/** Resumen Ejecutivo */}
+
               <Route path="AsignacionDiaria" element={<AsignacionDiaria />} />
               <Route path="CapacidadInstalada" element={<CapacidadInstalada />} />
               <Route path="EficienciaMarcador" element={<EficienciaMarcador />} />
+
+              {/** Resumen Operativo */}
+              <Route path="PageHomeATC" element={<PageHomeATC />} />
               <Route path="PenetracionHome" element={<PenetracionesHome />} />
-              <Route path="PenetracionHome/PenetracionHoraCob" element={<PenetracionHora />} />
-              <Route path="PenetracionHome/PenetracionHoraComer" element={<PenetracionHoraComer />} />
+              <Route path="PageHomeCobr" element={<PageHomeCobr />} />
+              <Route path="PageHomeCobr/PenetracionHoraCob" element={<PenetracionHora />} />
+              <Route path="PageHomeComer" element={<PageHomeComer />} />
+              <Route path="PageHomeComer/PenetracionHoraComer" element={<PenetracionHoraComer />} />
               <Route path="VerificaHome" element={<VerificaHome />} />
-              <Route path="VerificacionFraude" element={<VerificacionFraude />} />
-              <Route path="Push" element={<Push />} />
+              
+              <Route path="PageHomeOtorg" element={<PageHomeOtorg />} />
+              <Route path="PageHomeOtorg/Push" element={<Push />} />
+              <Route path="PageHomeRed" element={<PageHomeRed />} />
+              <Route path="PageHomeAFI" element={<PageHomeAFI />} />
+
+              <Route path="PageHomeOtro" element={<PageHomeOtro />} />
+              <Route path="PageHomeOtro/VerificacionFraude" element={<VerificacionFraude />} />
             </Route>
           </Routes>
       </AuthProvider>

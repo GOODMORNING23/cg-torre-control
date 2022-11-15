@@ -186,52 +186,43 @@ export const Menu = () => {
                   >
                     {/* Carla Eugenia del Leon de Alba */}
                     <Listado
+                      style={{ display: "none" }}
                       nombreLista={"Atencion a Clientes"}
                       icon={"nav-icon fas fa-headset"}
-                      url={"AtencionClientes"}
+                      url={"PageHomeATC"}
                     />
                     {/* Pedro Pablo Perez */}
                     <Listado
                       nombreLista={"Cobranza"}
                       icon={"nav-icon fas fa-money-bill"}
-                      url={"Cobranza"}
+                      url={"PageHomeCobr"}
                     />
                     {/* Ivan y Manuel */}
                     <Listado
                       nombreLista={"Comercial"}
                       icon={"nav-icon fas fa-chart-line"}
-                      url={"Comercial"}
+                      url={"PageHomeComer"}
                     />
                     {/* Carla Eugenia del Leon de Alba */}
                     <Listado
                       nombreLista={"Otorgamiento de Credito"}
                       icon={"nav-icon fas fa-briefcase"}
-                      url={"OtorgamientoCredito"}
+                      url={"PageHomeOtorg"}
                     />
                     <Listado
                       nombreLista={"Apoyo a la Red"}
                       icon={"nav-icon fas fa-network-wired"}
-                      url={"ApoyoRed"}
+                      url={"PageHomeRed"}
                     />
                     <Listado
                       nombreLista={"Apoyo AFI"}
                       icon={"nav-icon fas fa-at"}
-                      url={"ApoyoAfi"}
+                      url={"PageHomeAFI"}
                     />
                     <Listado
-                      nombreLista={"Penetracion hora"}
-                      icon={"nav-icon fas fa-clipboard"}
-                      url={"PenetracionHome"}
-                    />
-                    <Listado
-                      nombreLista={"Verificacion Fraude (C)"}
-                      icon={"nav-icon fas fa-clipboard"}
-                      url={"VerificacionFraude"}
-                    />
-                    <Listado
-                      nombreLista={"Push"}
-                      icon={"nav-icon fas fa-clipboard"}
-                      url={"Push"}
+                      nombreLista={"Otros"}
+                      icon={"nav-icon far fa-plus-square"}
+                      url={"PageHomeOtro"}
                     />
                   </ul>
                 </li>
@@ -249,6 +240,21 @@ export const Menu = () => {
                   icon={"nav-icon fas fa-clipboard"}
                   url={"PenetracionHora"}
                 />
+                <Listado
+                      nombreLista={"Penetracion hora"}
+                      icon={"nav-icon fas fa-clipboard"}
+                      url={"PenetracionHome"}
+                    />
+                    <Listado
+                      nombreLista={"Verificacion Fraude (C)"}
+                      icon={"nav-icon fas fa-clipboard"}
+                      url={"VerificacionFraude"}
+                    />
+                    <Listado
+                      nombreLista={"Push"}
+                      icon={"nav-icon fas fa-clipboard"}
+                      url={"Push"}
+                    />
               </ul>
             </li> */}
               </>
