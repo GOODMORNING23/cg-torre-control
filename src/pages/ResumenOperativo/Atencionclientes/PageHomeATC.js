@@ -22,9 +22,9 @@ export const PageHomeATC = () => {
             <div className="row">
               <SmallCard
                 large={"col-lg-3 col-6"}
-                nameProject={"Proyecto 1"}
+                nameProject={"Control Guschat ATC"}
                 icon={"fas fa-chart-bar"}
-                url={"#"}
+                url={"DataATC"}
                 sizeColor={"small-box bg-red"}
               />
             </div>

@@ -33,6 +33,9 @@ import { PageHomeOtorg } from "./pages/ResumenOperativo/OtorgamientoCredito/Page
 import { PageHomeRed } from "./pages/ResumenOperativo/ApoyoRed/PageHomeRed";
 import { PageHomeAFI } from "./pages/ResumenOperativo/ApoyoAFI/PageHomeAFI";
 import { PageHomeOtro } from "./pages/ResumenOperativo/PageHome/PageHomeOtro";
+import { FrameDataATC } from "./pages/DataStudios/DataATC/ControlGuschat";
+import { Ranking } from "./pages/DataStudios/DataCobr/Ranking";
+import { ControlVT } from "./pages/DataStudios/DataApoyoAFI/ControlVT";
 
 function App() {
   return (
@@ -70,9 +73,11 @@ function App() {
 
               {/** Resumen Operativo */}
               <Route path="PageHomeATC" element={<PageHomeATC />} />
+              <Route path="PageHomeATC/DataATC" element={<FrameDataATC />} />
               <Route path="PenetracionHome" element={<PenetracionesHome />} />
               <Route path="PageHomeCobr" element={<PageHomeCobr />} />
               <Route path="PageHomeCobr/PenetracionHoraCob" element={<PenetracionHora />} />
+              <Route path="PageHomeCobr/Ranking" element={<Ranking />} />
               <Route path="PageHomeComer" element={<PageHomeComer />} />
               <Route path="PageHomeComer/PenetracionHoraComer" element={<PenetracionHoraComer />} />
               <Route path="VerificaHome" element={<VerificaHome />} />
@@ -81,7 +86,7 @@ function App() {
               <Route path="PageHomeOtorg/Push" element={<Push />} />
               <Route path="PageHomeRed" element={<PageHomeRed />} />
               <Route path="PageHomeAFI" element={<PageHomeAFI />} />
-
+              <Route path="PageHomeAFI/ControlVT" element={<ControlVT />} />
               <Route path="PageHomeOtro" element={<PageHomeOtro />} />
               <Route path="PageHomeOtro/VerificacionFraude" element={<VerificacionFraude />} />
             </Route>

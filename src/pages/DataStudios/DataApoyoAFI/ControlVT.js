@@ -1,7 +1,6 @@
 import React from "react";
-import { SmallCard } from "../../../components/SmallCard/SmallCard";
 
-export const PageHomeComer = () => {
+export const ControlVT = () => {
   const EstilosLetraH3 = {
     color: "navy",
     fontFamily: "Times New Roman",
@@ -16,16 +15,17 @@ export const PageHomeComer = () => {
         <div className="content-header">
           <div className="container-fluid ">
             <h1 style={EstilosLetraH3} className="m-0">
-              Comercial
+              Control VT yBackoffice AFI
             </h1>
             <br />
             <div className="row">
-              <SmallCard
-                large={"col-lg-3 col-6"}
-                nameProject={"Penetracion por Hora"}
-                icon={"fas fa-user-clock"}
-                url={"PenetracionHoraComer"}
-                sizeColor={"small-box bg-primary"}
+              <iframe
+                width={1800}
+                height={2572}
+                src="https://datastudio.google.com/embed/reporting/19fa947e-86d6-4fc4-8736-2ba57aa1eef3/page/p_ptrwxtf1lc"
+                frameBorder={0}
+                style={{ border: 0 }}
+                allowFullScreen
               />
             </div>
           </div>

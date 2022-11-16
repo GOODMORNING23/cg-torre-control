@@ -1,7 +1,6 @@
 import React from "react";
-import { SmallCard } from "../../../components/SmallCard/SmallCard";
 
-export const PageHomeComer = () => {
+export const Ranking = () => {
   const EstilosLetraH3 = {
     color: "navy",
     fontFamily: "Times New Roman",
@@ -16,16 +15,17 @@ export const PageHomeComer = () => {
         <div className="content-header">
           <div className="container-fluid ">
             <h1 style={EstilosLetraH3} className="m-0">
-              Comercial
+              Rank X FTE Cob AFI 2022
             </h1>
             <br />
             <div className="row">
-              <SmallCard
-                large={"col-lg-3 col-6"}
-                nameProject={"Penetracion por Hora"}
-                icon={"fas fa-user-clock"}
-                url={"PenetracionHoraComer"}
-                sizeColor={"small-box bg-primary"}
+              <iframe
+                width={1800}
+                height={1350}
+                src="https://datastudio.google.com/embed/reporting/3ea0e06d-4bdc-4700-a195-b9d9843c831a/page/p_ja38ypee0c"
+                frameBorder={0}
+                style={{ border: 0 }}
+                allowFullScreen
               />
             </div>
           </div>

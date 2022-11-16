@@ -21,11 +21,11 @@ export const PageHomeAFI = () => {
             <br />
             <div className="row">
               <SmallCard
-                large={"col-lg-3 col-6"}
-                nameProject={"Proyecto 1"}
-                icon={"fas fa-chart-bar"}
-                url={"#"}
-                sizeColor={"small-box bg-red"}
+                large={"col-lg-4 col-6"}
+                nameProject={"Control VT y Backoffice AFI"}
+                icon={"fas fa-phone"}
+                url={"ControlVT"}
+                sizeColor={"small-box bg-purple"}
               />
             </div>
           </div>

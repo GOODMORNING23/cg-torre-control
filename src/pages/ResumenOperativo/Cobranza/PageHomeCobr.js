@@ -21,11 +21,18 @@ export const PageHomeCobr = () => {
             <br />
             <div className="row">
               <SmallCard
-                large={"col-lg-4 col-6"}
+                large={"col-lg-3 col-6"}
                 nameProject={"Penetracion por Hora"}
                 icon={"fas fa-user-clock"}
                 url={"PenetracionHoraCob"}
                 sizeColor={"small-box bg-green"}
+              />
+              <SmallCard
+                large={"col-lg-3 col-6"}
+                nameProject={"Ranking"}
+                icon={"fas fa-money-bill"}
+                url={"Ranking"}
+                sizeColor={"small-box bg-primary"}
               />
             </div>
           </div>
