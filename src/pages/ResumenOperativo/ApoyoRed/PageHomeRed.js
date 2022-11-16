@@ -22,10 +22,24 @@ export const PageHomeRed = () => {
             <div className="row">
               <SmallCard
                 large={"col-lg-3 col-6"}
-                nameProject={"Proyecto 1"}
+                nameProject={"Control Llamadas"}
                 icon={"fas fa-chart-bar"}
-                url={"#"}
+                url={"ControlLlamadasAFI"}
                 sizeColor={"small-box bg-red"}
+              />
+              <SmallCard
+                large={"col-lg-3 col-6"}
+                nameProject={"Socio Imparable"}
+                icon={"fas fa-universal-access"}
+                url={"SocioImparable"}
+                sizeColor={"small-box bg-primary"}
+              />
+              <SmallCard
+                large={"col-lg-3 col-6"}
+                nameProject={"Control Personal"}
+                icon={"fas fa-users"}
+                url={"ControlPersonal"}
+                sizeColor={"small-box bg-yellow"}
               />
             </div>
           </div>

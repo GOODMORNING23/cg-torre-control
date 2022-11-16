@@ -34,6 +34,13 @@ export const PageHomeCobr = () => {
                 url={"Ranking"}
                 sizeColor={"small-box bg-primary"}
               />
+              <SmallCard
+                large={"col-lg-3 col-6"}
+                nameProject={"Control Llamadas"}
+                icon={"fas fa-phone-volume"}
+                url={"ControlLlamadas"}
+                sizeColor={"small-box bg-yellow"}
+              />
             </div>
           </div>
         </div>

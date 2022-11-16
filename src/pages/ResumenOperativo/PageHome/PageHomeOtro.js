@@ -21,11 +21,25 @@ export const PageHomeOtro = () => {
             <br />
             <div className="row">
               <SmallCard
-                large={"col-lg-4 col-6"}
+                large={"col-lg-3 col-6"}
                 nameProject={"Verificacion Fraude"}
-                icon={"fas fa-user-clock"}
+                icon={"fas fa-check"}
                 url={"VerificacionFraude"}
                 sizeColor={"small-box bg-primary"}
+              />
+              <SmallCard
+                large={"col-lg-3 col-6"}
+                nameProject={"Facturacion"}
+                icon={"fas fa-file-invoice"}
+                url={"Facturacion"}
+                sizeColor={"small-box bg-green"}
+              />
+              <SmallCard
+                large={"col-lg-3 col-6"}
+                nameProject={"Indicadores Calidad"}
+                icon={"fas fa-chart-bar"}
+                url={"Calidad"}
+                sizeColor={"small-box bg-purple"}
               />
             </div>
           </div>

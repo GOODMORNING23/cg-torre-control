@@ -57,7 +57,7 @@ export const PenetracionHoraComer = () => {
           />
           <br />
           <li className="nav-item d-none d-sm-inline-block">
-            <Link to="/Home/PenetracionHome" className="nav-link">
+            <Link to="/Home/PageHomeComer" className="nav-link">
               Regresa Penetraciones Home
             </Link>
           </li>

@@ -1,6 +1,6 @@
 import React from "react";
 
-export const ControlVT = () => {
+export const SocioImparable = () => {
   const EstilosLetraH3 = {
     color: "navy",
     fontFamily: "Times New Roman",
@@ -15,14 +15,14 @@ export const ControlVT = () => {
         <div className="content-header">
           <div className="container-fluid ">
             <h1 style={EstilosLetraH3} className="m-0">
-              Control VT y Backoffice AFI
+              T4-Indicadores Socio-Imparable '22
             </h1>
             <br />
             <div className="row">
               <iframe
                 width={1800}
-                height={2572}
-                src="https://datastudio.google.com/embed/reporting/19fa947e-86d6-4fc4-8736-2ba57aa1eef3/page/p_ptrwxtf1lc"
+                height={1350}
+                src="https://datastudio.google.com/embed/reporting/9e167145-1200-467a-96f8-ff7f5aea4178/page/p_c7slofawzc"
                 frameBorder={0}
                 style={{ border: 0 }}
                 allowFullScreen

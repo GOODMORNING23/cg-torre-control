@@ -27,6 +27,13 @@ export const PageHomeComer = () => {
                 url={"PenetracionHoraComer"}
                 sizeColor={"small-box bg-primary"}
               />
+              <SmallCard
+                large={"col-lg-3 col-6"}
+                nameProject={"Seguimiento Marcacion"}
+                icon={"fas fa-tint"}
+                url={"SeguimientoMarcacion"}
+                sizeColor={"small-box bg-green"}
+              />
             </div>
           </div>
         </div>

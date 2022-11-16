@@ -41,6 +41,10 @@ export const ApoyoAFIPage = () => {
       value: "37-AFI-VTEL",
       name: "Verificacion Tel AFI",
     },
+    {
+      value: "53-AFI-DISP",
+      name: "Disperciones AFI",
+    },
   ];
 
   console.log(datosApoyoAFI);

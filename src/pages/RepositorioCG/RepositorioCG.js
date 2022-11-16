@@ -160,14 +160,6 @@ export const RepositorioCG = () => {
                 </div>
               </div>
             </div>
-            <iframe
-              width={1080}
-              height={920}
-              src="https://datastudio.google.com/embed/reporting/a4d95024-c77f-4660-afbd-bebc693a088e/page/p_uzojtv02yc"
-              frameBorder={0}
-              style={{ border: 0 }}
-              allowFullScreen
-            />
           </div>
         </div>
       </div>

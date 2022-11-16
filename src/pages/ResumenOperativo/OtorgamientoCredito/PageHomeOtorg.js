@@ -21,11 +21,18 @@ export const PageHomeOtorg = () => {
             <br />
             <div className="row">
               <SmallCard
-                large={"col-lg-4 col-6"}
+                large={"col-lg-3 col-6"}
                 nameProject={"Push (C)"}
-                icon={"fas fa-user-clock"}
+                icon={"fas fa-file"}
                 url={"Push"}
                 sizeColor={"small-box bg-primary"}
+              />
+              <SmallCard
+                large={"col-lg-3 col-6"}
+                nameProject={"Metricas Operativas"}
+                icon={"fas fa-sort-numeric-up"}
+                url={"MetricasOperativas"}
+                sizeColor={"small-box bg-red"}
               />
             </div>
           </div>

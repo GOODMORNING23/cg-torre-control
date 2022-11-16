@@ -269,7 +269,7 @@ export const Menu = () => {
               >
                 <i className="nav-icon fas fa-book" />
                 <p>
-                  Directorios CG
+                  Buscador Reportes
                   <i className="right fas fa-angle-left" />
                 </p>
               </div>

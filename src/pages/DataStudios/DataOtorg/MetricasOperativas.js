@@ -1,6 +1,6 @@
 import React from "react";
 
-export const ControlVT = () => {
+export const MetricasOperativas = () => {
   const EstilosLetraH3 = {
     color: "navy",
     fontFamily: "Times New Roman",
@@ -15,14 +15,14 @@ export const ControlVT = () => {
         <div className="content-header">
           <div className="container-fluid ">
             <h1 style={EstilosLetraH3} className="m-0">
-              Control VT y Backoffice AFI
+              T8-Metrcicas Operativas CROWD
             </h1>
             <br />
             <div className="row">
               <iframe
                 width={1800}
                 height={2572}
-                src="https://datastudio.google.com/embed/reporting/19fa947e-86d6-4fc4-8736-2ba57aa1eef3/page/p_ptrwxtf1lc"
+                src="https://datastudio.google.com/embed/reporting/9abbb2bb-73e2-469d-9839-2080e5680312/page/p_wdx5jx3czc"
                 frameBorder={0}
                 style={{ border: 0 }}
                 allowFullScreen
