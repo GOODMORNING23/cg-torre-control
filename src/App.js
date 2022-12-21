@@ -44,6 +44,8 @@ import { Facturacion } from "./pages/DataStudios/DataOtros/Facturacion";
 import { MetricasOperativas } from "./pages/DataStudios/DataOtorg/MetricasOperativas";
 import { IndicadoresCalidad } from "./pages/DataStudios/DataOtros/IndicadoresCalidad";
 import { ControlPersonal } from "./pages/DataStudios/DataRed/ControlPersonal";
+import { Pruebas } from "./pages/Pruebas";
+import { TableroProd } from "./pages/DataStudios/DataOtorg/TableroProd";
 
 function App() {
   return (
@@ -99,6 +101,7 @@ function App() {
               <Route path="PageHomeOtorg" element={<PageHomeOtorg />} />
               <Route path="PageHomeOtorg/Push" element={<Push />} />
               <Route path="PageHomeOtorg/MetricasOperativas" element={<MetricasOperativas />} />
+              <Route path="PageHomeOtorg/TableroProd" element={<TableroProd />} />
 
               {/** Apoyo a la Red */}
               <Route path="PageHomeRed" element={<PageHomeRed />} />
@@ -116,6 +119,8 @@ function App() {
               <Route path="PageHomeOtro/Facturacion" element={<Facturacion />} />
               <Route path="PageHomeOtro/Calidad" element={<IndicadoresCalidad />} />
               <Route path="VerificaHome" element={<VerificaHome />} />
+
+              <Route path="pruebas" element={<Pruebas />} />
             </Route>
           </Routes>
       </AuthProvider>

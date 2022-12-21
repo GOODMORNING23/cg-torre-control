@@ -283,6 +283,11 @@ export const Menu = () => {
                   icon={"nav-icon fas fa-clipboard"}
                   url={"repositoriocg"}
                 />
+                <Listado
+                  nombreLista={"Pruebas Tablas"}
+                  icon={"nav-icon fas fa-clipboard"}
+                  url={"pruebas"}
+                />
               </ul>
             </li>
             {/* <li className="nav-item menu-open">

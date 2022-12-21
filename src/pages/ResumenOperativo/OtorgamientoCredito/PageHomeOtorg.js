@@ -22,9 +22,9 @@ export const PageHomeOtorg = () => {
             <div className="row">
               <SmallCard
                 large={"col-lg-3 col-6"}
-                nameProject={"Push (C)"}
+                nameProject={"Tablero Productividad"}
                 icon={"fas fa-file"}
-                url={"Push"}
+                url={"TableroProd"}
                 sizeColor={"small-box bg-primary"}
               />
               <SmallCard
